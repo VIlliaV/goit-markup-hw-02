@@ -1,0 +1,106 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-bkg-color: #ffffff;
+  --secondary-text-color: #212121;
+  --secondary-bkg-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --thirdary-bkg-color: #2f303a;
+  /* thirdary-bkg - на даний момент є 2 таких кольори, тому добавив в рут */
+}
+
+/* style for body */
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bkg-color);
+}
+
+/* constant identical properties */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.title {
+  color: var(--secondary-text-color);
+}
+/* nav */
+.logo {
+  color: var(--accent-color);
+}
+.nav .studio {
+  color: #000000;
+}
+.nav-link .link {
+  color: var(--secondary-text-color);
+}
+.nav-link .link:hover,
+.nav-link .link:focus {
+  color: var(--accent-color);
+}
+.current.link {
+  color: var(--accent-color);
+}
+/* contact */
+.contact .link {
+  color: var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--thirdary-bkg-color);
+}
+.title-hero {
+  color: var(--primary-bkg-color);
+}
+.hero .button {
+  color: var(--primary-bkg-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
+}
+
+/* features */
+
+/* hide title */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* our team */
+.team {
+  background-color: var(--secondary-bkg-color);
+}
+
+.team .item {
+  background-color: var(--primary-bkg-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--thirdary-bkg-color);
+}
+.footer .studio {
+  color: var(--primary-bkg-color);
+}
+.maps {
+  color: var(--primary-bkg-color);
+}
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
