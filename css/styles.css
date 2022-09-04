@@ -74,6 +74,7 @@ body {
 .contact .link:focus {
   color: var(--accent-color);
 }
+/* INDEX.HTML */
 
 /* Hero */
 
@@ -123,7 +124,8 @@ body {
 
 /* we do */
 .do .title,
-.team .title {
+.team .title,
+.team-item .text {
   text-align: center;
 }
 
@@ -133,8 +135,16 @@ body {
   background-color: var(--secondary-bkg-color);
 }
 
-.team .item {
+.team-item {
   background-color: var(--primary-bkg-color);
+}
+.team-item .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-item .text {
+  line-height: 1.19;
 }
 
 /* footer */
@@ -154,4 +164,31 @@ body {
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
+}
+.address {
+  font-style: normal;
+}
+
+/* PORTFOLIO */
+
+.portfolio .button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bkg-color);
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--primary-bkg-color);
+  background-color: var(--accent-color);
+}
+.portfolio .text {
+  font-size: 16px;
+  line-height: 1.88;
 }
