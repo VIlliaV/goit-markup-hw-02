@@ -96,6 +96,7 @@ body {
   color: var(--primary-bkg-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
@@ -188,6 +189,10 @@ body {
 .portfolio .button:focus {
   color: var(--primary-bkg-color);
   background-color: var(--accent-color);
+}
+.portfolio .title {
+  font-size: 18px;
+  line-height: 2;
 }
 .portfolio .text {
   font-size: 16px;
